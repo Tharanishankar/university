@@ -1,0 +1,561 @@
+{
+  "_notes": "This file contains PATHWAY GUIDANCE for Gemini scholarship search — not actual scholarship data. Gemini uses these as search context to find current, verified scholarship details. Loan data is stored as structured facts since products are relatively stable.",
+
+  "_pathway_guides": {
+
+    "United Kingdom": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "Sri Lanka", "Ghana", "South Africa", "UAE", "Qatar", "Bahrain", "Kuwait", "Oman", "Saudi Arabia", "Other"],
+        "chevening_eligible": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "Sri Lanka", "Ghana", "South Africa", "Nepal", "Bhutan"],
+        "chevening_ineligible_note": "UAE, Qatar, Bahrain, Kuwait, Oman, Saudi Arabia — Gulf Cooperation Council (GCC) nationals are NOT eligible for Chevening. Do not mention Chevening for these nationalities.",
+        "search_tips": [
+          "Search '[university name] international merit scholarship [current year]'",
+          "Search '[university name] India scholarship' or '[university name] [nationality] scholarship'",
+          "For Chevening-eligible nationalities: mention Chevening (requires ~2 years post-UG work experience, Masters only, annual October deadline)",
+          "Commonwealth Scholarship is for developing country nationals — applies through their home country's Ministry of Education nominating body",
+          "GREAT Scholarship: partial (min £10,000), British Council managed, ~12 awards per country per year, annual June deadline"
+        ],
+        "do_not_mention": "UK Student Loan (for UK home students only), EU transition bursaries (EU passport required)"
+      },
+      "home_domestic": {
+        "applies_to": ["United Kingdom"],
+        "search_tips": [
+          "UK Student Finance: tuition fee loan up to £9,535/year + maintenance loan (income-assessed) via Student Loans Company — studentfinance.gov.uk",
+          "Search '[university name] bursary low income UK home student'",
+          "Search '[university name] access to learning fund' or '[university name] hardship fund'",
+          "NHS Learning Support Fund for healthcare courses"
+        ],
+        "do_not_mention": "International scholarships, Chevening, Commonwealth (these are for non-UK students)"
+      },
+      "eu_eea": {
+        "applies_to": ["Germany", "France", "Netherlands", "Sweden", "Ireland", "Other EU/EEA"],
+        "search_tips": [
+          "Post-Brexit: EU students pay international fees at most UK universities",
+          "Search '[university name] EU international merit scholarship'",
+          "Some universities still offer EU transition bursaries — search '[university name] EU bursary'"
+        ],
+        "do_not_mention": "UK Student Loan (EU students no longer eligible post-Brexit for most programmes)"
+      },
+      "nri_diaspora": {
+        "applies_to_note": "British passport + Indian/Pakistani/Other origin (OCI/PIO holders)",
+        "search_tips": [
+          "British passport holders qualify as UK home students — access UK Student Finance",
+          "May also qualify for university diversity or community scholarships — search '[university name] diversity scholarship'"
+        ]
+      }
+    },
+
+    "Germany": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-EU"],
+        "search_tips": [
+          "Most German public universities charge NO tuition fees for all nationalities (only semester contribution ~€350/semester) — mention this prominently",
+          "DAAD scholarships: open to all nationalities, no nationality restriction — search 'DAAD scholarship [programme level] [field]'",
+          "Deutschlandstipendium: €300/month, offered by individual German universities, apply directly — search '[university name] Deutschlandstipendium'",
+          "Search '[university name] international scholarship [current year]'",
+          "Baden-Württemberg Stipendium: for exchange students at BW universities with formal partner agreements"
+        ],
+        "do_not_mention": "BAföG (German nationals and long-term EU residents only)"
+      },
+      "home_domestic": {
+        "applies_to": ["Germany"],
+        "search_tips": [
+          "BAföG (Bundesausbildungsförderungsgesetz): government grant/loan, up to €934/month, half grant half interest-free loan — bafög.de",
+          "Deutschlandstipendium: €300/month available to German students too",
+          "Stipendien-Lotse: German scholarship database — stipendienlotse.de"
+        ]
+      },
+      "eu_eea": {
+        "applies_to": ["France", "Netherlands", "Sweden", "Other EU/EEA"],
+        "search_tips": [
+          "EU students pay same fees as German students (mostly zero tuition at public universities)",
+          "Long-term EU residents may qualify for BAföG — check eligibility",
+          "DAAD open to EU students too — search DAAD scholarship database"
+        ]
+      }
+    },
+
+    "Australia": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-AU/NZ"],
+        "search_tips": [
+          "Australia Awards: fully funded (tuition + living + airfare), return obligation to home country, annual Feb–Apr application — dfat.gov.au",
+          "Destination Australia: up to AUD 15,000/year for regional campuses, no return obligation — education.gov.au",
+          "Search '[university name] international merit scholarship India [current year]'",
+          "University of Sydney: Sydney Scholars India Scholarship Programme — 28 awards including 2 full-ride",
+          "University of Melbourne: Graduate Research Scholarship for research degrees (AUD 39,500/year stipend + tuition)"
+        ],
+        "do_not_mention": "HECS-HELP (Australian citizens/PR only), StudyLink (NZ citizens only)"
+      },
+      "home_domestic": {
+        "applies_to": ["Australia"],
+        "search_tips": [
+          "HECS-HELP: government loan covering tuition, repaid through tax once earning above threshold — studyassist.gov.au",
+          "VET Student Loans for vocational programmes",
+          "Search '[university name] bursary Australian student'"
+        ]
+      }
+    },
+
+    "Canada": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-CA"],
+        "search_tips": [
+          "Search '[university name] international merit scholarship [current year]'",
+          "UBC Karen McKellin International Leader of Tomorrow (ILOT): CAD 14,000–34,000/year, need-based, undergraduate",
+          "University of Toronto Lester B. Pearson Scholarship: fully funded undergraduate, requires school nomination",
+          "CGRS-D (replaced Vanier): CAD 40,000/year for 3 years, doctoral only, must be nominated by Canadian institution",
+          "Many universities offer entrance scholarships for international students — search '[university name] entrance scholarship international'"
+        ],
+        "do_not_mention": "Canada Student Loans (Canadian citizens/PR only), provincial loans"
+      },
+      "home_domestic": {
+        "applies_to": ["Canada"],
+        "search_tips": [
+          "Canada Student Grant and Loan (NSLSC): federal loans and grants — nslsc.canada.ca",
+          "Provincial student loans vary by province — search '[province] student loan'",
+          "Search '[university name] bursary Canadian student'"
+        ]
+      }
+    },
+
+    "United States": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-US"],
+        "search_tips": [
+          "Need-blind universities (Harvard, Yale, Princeton, MIT, Dartmouth, Amherst, Bowdoin): meet 100% of demonstrated financial need for international students — apply for financial aid with admission application",
+          "Fulbright Foreign Student Program: fully funded graduate scholarships, apply through USIEF in India — usief.org.in (May–July annual deadline)",
+          "Search '[university name] merit scholarship international students [current year]'",
+          "CSS Profile required at most need-based aid schools — identify if university uses CSS Profile",
+          "Check if university is need-aware for international students (most are) — reduces aid chances"
+        ],
+        "do_not_mention": "FAFSA/Pell Grant/Federal Direct Loans (US citizens/PR only)"
+      },
+      "home_domestic": {
+        "applies_to": ["United States"],
+        "search_tips": [
+          "FAFSA: Federal Student Aid application — studentaid.gov — unlocks Pell Grants (up to $7,395/year) and Federal Direct Loans",
+          "Federal Direct Subsidized/Unsubsidized Loans: low fixed interest rates, income-based repayment options",
+          "Search '[university name] scholarship US citizen'"
+        ]
+      }
+    },
+
+    "Netherlands": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-EU"],
+        "search_tips": [
+          "NL Scholarship (formerly Holland Scholarship): €5,000 one-time, first year only, apply through individual Dutch university — studyinnl.org",
+          "Orange Tulip Scholarship: DISCONTINUED in 2024 — do not mention",
+          "Search '[university name] international merit scholarship [current year]'",
+          "Nuffic manages NL Scholarship — check studyinnl.org for participating universities"
+        ],
+        "do_not_mention": "DUO student loan (Dutch citizens only), Orange Tulip Scholarship (discontinued)"
+      },
+      "eu_eea": {
+        "applies_to": ["Germany", "Belgium", "France", "Other EU/EEA"],
+        "search_tips": [
+          "EU students pay lower tuition fees in Netherlands (~€2,314/year vs ~€10,000–20,000 for non-EU)",
+          "DUO student loan available to EU students working part-time in Netherlands — duo.nl",
+          "NL Scholarship still available to EU students"
+        ]
+      },
+      "home_domestic": {
+        "applies_to": ["Netherlands"],
+        "search_tips": [
+          "DUO (Dienst Uitvoering Onderwijs): Dutch government student finance — gift component + loan component — duo.nl",
+          "Dutch students qualify for OV-chipcard (free public transport while studying)"
+        ]
+      }
+    },
+
+    "Sweden": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-EU"],
+        "search_tips": [
+          "SI Scholarship for Global Professionals (Swedish Institute): fully funded (full tuition + SEK 12,000/month living + SEK 15,000 travel), only 232 awards globally, highly competitive — si.se (annual February application window, ~2 weeks only)",
+          "India is among 34 eligible SI Scholarship countries",
+          "Search '[university name] international merit scholarship [current year]'",
+          "Many Swedish universities also offer small merit scholarships for non-EU students — search directly on university website"
+        ],
+        "do_not_mention": "CSN loan (Swedish citizens and EU residents with Swedish connection only)"
+      },
+      "eu_eea": {
+        "applies_to": ["Germany", "France", "Netherlands", "Other EU/EEA"],
+        "search_tips": [
+          "EU students pay NO tuition fees in Sweden (same as Swedish students)",
+          "CSN student loan/grant available to EU students if working or connected to Sweden — csn.se",
+          "SI Scholarship also available to EU students if applying to eligible programmes"
+        ]
+      }
+    },
+
+    "France": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-EU"],
+        "search_tips": [
+          "Eiffel Scholarship (Campus France): prestigious, fully funded, Masters and PhD, annual January deadline — campusfrance.org/en/eiffel",
+          "French Government Scholarships via French Embassy in applicant's country — contact French Embassy India/Pakistan etc.",
+          "Search '[university name] international merit scholarship [current year]'",
+          "Most French public universities have low tuition (~€2,770–€3,770/year for non-EU, post-2019 reform)",
+          "Campus France portal: campusfrance.org — gateway for international students"
+        ],
+        "do_not_mention": "Bourse sur critères sociaux (French citizens and long-term EU residents only)"
+      },
+      "eu_eea": {
+        "applies_to": ["Germany", "Netherlands", "Other EU/EEA"],
+        "search_tips": [
+          "EU students pay same low tuition as French students (~€170–€601/year at public universities)",
+          "French government social scholarship (Bourse sur critères sociaux) may be available — check CROUS"
+        ]
+      }
+    },
+
+    "Ireland": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Nigeria", "Kenya", "Bangladesh", "UAE", "Other non-EU"],
+        "search_tips": [
+          "Government of Ireland International Education Scholarship: 60 awards/year, fully funded, postgraduate — gov.ie/en/service/government-of-ireland-international-education-scholarship",
+          "Search '[university name] international merit scholarship [current year]'",
+          "Trinity College Dublin: Global Excellence Scholarship — search for current year details",
+          "University College Dublin: Global Excellence Awards — search for current year details"
+        ],
+        "do_not_mention": "SUSI grant (Irish/EU students domiciled in Ireland for 3+ years only)"
+      },
+      "eu_eea": {
+        "applies_to": ["Germany", "France", "Netherlands", "Other EU/EEA"],
+        "search_tips": [
+          "EU students pay same fees as Irish students (EU equality of access)",
+          "SUSI grant available to EU students domiciled in Ireland — susi.ie",
+          "Search '[university name] EU student support'"
+        ]
+      }
+    },
+
+    "Japan": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Bangladesh", "UAE", "Nigeria", "Kenya", "Other"],
+        "search_tips": [
+          "MEXT (Ministry of Education, Culture, Sports, Science and Technology) Scholarship: fully funded (tuition + living allowance ¥117,000–¥145,000/month + travel), highly competitive, apply through Japanese Embassy in home country — annual April–June embassy application",
+          "JASSO (Japan Student Services Organization) Scholarship: partial, ¥48,000–¥80,000/month — jasso.go.jp",
+          "Search '[university name] international scholarship Japan [current year]'",
+          "Many Japanese universities offer university-funded scholarships — search '[university name] scholarship for international students'"
+        ]
+      }
+    },
+
+    "Singapore": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Bangladesh", "UAE", "Nigeria", "Other"],
+        "search_tips": [
+          "NUS International Undergraduate Scholarship: fully subsidised tuition (after MOE Tuition Grant) + SGD 6,000/year living + SGD 1,750 computer allowance + accommodation + one-way airfare. 3-year bond to work in Singapore.",
+          "NTU Nanyang Scholarship / Nanyang Global Scholarship: similar coverage to NUS, 3-year bond",
+          "Note: NTU ASEAN Scholarship is NOT available to Indian/Pakistani/Other non-ASEAN students — do not mention",
+          "Research/PhD: NUS Research Scholarship (up to SGD 3,900/month + tuition waiver), NTU Nanyang Research Scholarship, NTU President's Graduate Scholarship",
+          "Search '[university name] Singapore international scholarship [nationality] [current year]'"
+        ],
+        "bond_note": "Most Singapore government-linked scholarships require a 3-year bond to work in Singapore after graduation. Mention this prominently."
+      }
+    },
+
+    "New Zealand": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Bangladesh", "UAE", "Nigeria", "Other"],
+        "search_tips": [
+          "New Zealand Scholarships (NZAid): fully funded, for developing country students, annual March deadline — mfat.govt.nz/scholarships",
+          "Search '[university name] international merit scholarship New Zealand [current year]'",
+          "University of Auckland: Global Excellence Scholarship, various amounts",
+          "Victoria University of Wellington: Vice-Chancellor's Strategic Scholarship"
+        ],
+        "do_not_mention": "StudyLink (NZ citizens/PR only)"
+      }
+    },
+
+    "UAE": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Bangladesh", "Nigeria", "Other expatriates in UAE"],
+        "search_tips": [
+          "Most UAE universities (American University of Sharjah, University of Dubai etc.) offer merit scholarships based on grades — search '[university name] UAE merit scholarship [current year]'",
+          "UAE government universities like UAE University, Khalifa University offer scholarships primarily for UAE nationals",
+          "Search '[university name] international student scholarship UAE'"
+        ],
+        "do_not_mention": "UAE federal scholarships (UAE nationals only)"
+      },
+      "home_domestic": {
+        "applies_to": ["UAE"],
+        "search_tips": [
+          "UAE nationals: check Ministry of Education scholarships for studying abroad — mohesr.gov.ae",
+          "ADEK (Abu Dhabi Education and Knowledge) and KHDA (Dubai) offer scholarships for UAE nationals",
+          "Search '[destination country] scholarship UAE national'"
+        ]
+      }
+    },
+
+    "South Korea": {
+      "international": {
+        "applies_to": ["India", "Pakistan", "Bangladesh", "UAE", "Nigeria", "Other"],
+        "search_tips": [
+          "Korean Government Scholarship Program (KGSP / GKS): fully funded (tuition + living allowance KRW 900,000/month + Korean language training), annual March application — studyinkorea.go.kr",
+          "Search '[university name] Korea international scholarship [current year]'",
+          "NIIED (National Institute for International Education) manages KGSP — niied.go.kr"
+        ]
+      }
+    },
+
+    "India": {
+      "international": {
+        "applies_to_note": "For foreign nationals studying IN India",
+        "search_tips": [
+          "ICCR Scholarship (Indian Council for Cultural Relations): fully funded for nationals of 160+ countries, portal opens February annually — a2ascholarships.iccr.gov.in",
+          "Search '[university name] India international student scholarship'"
+        ]
+      },
+      "home_domestic": {
+        "applies_to": ["India"],
+        "search_tips": [
+          "Indian students studying in India: Central Sector Scheme, State scholarship portals (NSP — scholarships.gov.in)",
+          "Search '[university name] India merit scholarship'"
+        ]
+      }
+    },
+
+    "Pakistan": {
+      "international": {
+        "applies_to": ["India", "Bangladesh", "UAE", "Other"],
+        "search_tips": [
+          "HEC (Higher Education Commission Pakistan) scholarships for studying in Pakistan — hec.gov.pk",
+          "Search '[university name] Pakistan international student scholarship'"
+        ]
+      },
+      "home_domestic": {
+        "applies_to": ["Pakistan"],
+        "search_tips": [
+          "HEC Pakistan (Higher Education Commission): various scholarship programmes for Pakistani students studying abroad — hec.gov.pk/scholarships",
+          "PEEF (Punjab Education Endowment Fund): for Punjab province students",
+          "Prime Minister's Overseas Scholarship Programme: merit-based, for PhD/Masters abroad",
+          "Prodigy Finance: covers Pakistani students for international study — prodigyfinance.com"
+        ]
+      }
+    }
+
+  },
+
+  "_student_loans_by_citizenship": {
+
+    "India": {
+      "intro": "Indian students studying abroad have several education loan options from Indian banks and NBFCs.",
+      "lenders": [
+        {
+          "name": "SBI Scholar Loan / SBI Global Ed-Vantage",
+          "type": "Public Sector Bank",
+          "max_unsecured": "Up to INR 50 lakh (collateral-free, select top universities listed by SBI)",
+          "max_secured": "Up to INR 3 Crore (with collateral)",
+          "interest_rate": "Scholar Loan: 6.90–7.65% (for students at SBI-listed premium institutions — IITs, IIMs, NITs, top global unis); Standard: ~9.15% onwards",
+          "repayment": "Up to 15 years; moratorium = course duration + 6 months",
+          "coverage": "28 countries including USA, UK, Canada, Australia, Germany, France, Singapore",
+          "key_usp": "Lowest interest rates in market for Scholar Loan scheme; requires SBI-listed premium institution",
+          "apply_url": "https://sbi.co.in"
+        },
+        {
+          "name": "HDFC Credila (Credila)",
+          "type": "NBFC — Specialist Education Lender",
+          "max_unsecured": "INR 70–80 lakh (USA, top universities); INR 50 lakh (other destinations)",
+          "max_secured": "No fixed upper cap — depends on collateral value",
+          "interest_rate": "9.75–12% p.a. (floating; varies by profile, university, co-applicant)",
+          "repayment": "Up to 15 years",
+          "key_usp": "India's first specialist education NBFC; high quantum without collateral for top US universities; pre-visa disbursement possible",
+          "apply_url": "https://www.credila.com/abroad-education-loans"
+        },
+        {
+          "name": "Avanse Financial Services",
+          "type": "NBFC",
+          "max_unsecured": "Up to INR 1.25 Crore (qualifying profiles and institutions)",
+          "interest_rate": "~12–16% p.a. (floating)",
+          "key_usp": "Pre-admission loans for US STEM Masters; covers up to 75% of living expenses",
+          "apply_url": "https://www.avanse.com/education-loan/study-abroad-loan"
+        },
+        {
+          "name": "Auxilo Finserve",
+          "type": "NBFC",
+          "max_unsecured": "USA: up to INR 1 Crore; UK/Germany/Ireland/Canada: up to INR 40 lakh; Australia: up to INR 60 lakh",
+          "interest_rate": "10.25–14% p.a. (floating)",
+          "key_usp": "Covers pre-admission costs; partial-interest-only repayment during course",
+          "apply_url": "https://www.auxilo.com/education-loan/studying-in-abroad-loan"
+        },
+        {
+          "name": "IDFC First Bank Education Loan",
+          "type": "Private Sector Bank",
+          "max_unsecured": "Up to INR 75 lakh–1 Crore (select top universities)",
+          "max_secured": "Up to INR 2 Crore",
+          "interest_rate": "Secured: from 9.5%; Unsecured: from 11–11.25% p.a.",
+          "repayment": "Up to 15 years; moratorium = course duration + 12 months",
+          "key_usp": "Explicitly covers GIC (Canada) and Blocked Account (Germany); generous 12-month grace period",
+          "apply_url": "https://www.idfcfirst.bank.in/personal-banking/loans/education-loan/education-loan-for-abroad-studies"
+        },
+        {
+          "name": "Prodigy Finance",
+          "type": "International Fintech — No Collateral, No Co-signer",
+          "max_unsecured": "Up to USD 220,000",
+          "interest_rate": "From 8.33% variable (based on programme, school, career field)",
+          "repayment": "Up to 20 years; 6-month grace period post-study",
+          "key_usp": "No collateral, no co-signer, no minimum income; based on future earning potential; no Indian asset pledged",
+          "apply_url": "https://prodigyfinance.com/",
+          "coverage_note": "Top universities in USA, UK, continental Europe — check approved school list"
+        },
+        {
+          "name": "MPower Financing",
+          "type": "International Fintech — USA and Canada Only",
+          "max_unsecured": "USD 2,001–100,000",
+          "interest_rate": "Fixed from 9.99% (10.89% APR)",
+          "key_usp": "No cosigner, no collateral, no US credit history; refinancing option to release Indian collateral",
+          "apply_url": "https://www.mpowerfinancing.com/get-a-loan",
+          "coverage_note": "USA and Canada only — must attend MPOWER-approved institution"
+        }
+      ]
+    },
+
+    "Pakistan": {
+      "intro": "Pakistani students studying abroad can access HEC-managed loans and international options.",
+      "lenders": [
+        {
+          "name": "HEC Need-Based Scholarship + Loan Programme",
+          "type": "Government (Higher Education Commission Pakistan)",
+          "key_usp": "Merit-cum-need based; Prime Minister's Overseas Scholarship covers Masters/PhD abroad",
+          "apply_url": "https://www.hec.gov.pk/english/scholarshipsgrants/Pages/default.aspx"
+        },
+        {
+          "name": "Prodigy Finance",
+          "type": "International Fintech — No Collateral",
+          "max_unsecured": "Up to USD 220,000",
+          "interest_rate": "From 8.33% variable",
+          "key_usp": "Open to Pakistani students; no Pakistani asset required as collateral",
+          "apply_url": "https://prodigyfinance.com/",
+          "coverage_note": "Top universities in USA, UK, Europe — check approved school list"
+        }
+      ]
+    },
+
+    "Nigeria": {
+      "intro": "Nigerian students studying abroad can access government scholarships and international loan options.",
+      "lenders": [
+        {
+          "name": "PTDF Overseas Scholarship (Petroleum Technology Development Fund)",
+          "type": "Government (for STEM fields)",
+          "key_usp": "For Nigerian citizens in oil/gas/STEM fields; Masters and PhD abroad",
+          "apply_url": "https://ptdf.gov.ng"
+        },
+        {
+          "name": "Prodigy Finance",
+          "type": "International Fintech — No Collateral",
+          "max_unsecured": "Up to USD 220,000",
+          "interest_rate": "From 8.33% variable",
+          "key_usp": "Open to Nigerian students; no Nigerian asset required as collateral",
+          "apply_url": "https://prodigyfinance.com/"
+        }
+      ]
+    },
+
+    "Kenya": {
+      "intro": "Kenyan students studying abroad can access government bursaries and international loan options.",
+      "lenders": [
+        {
+          "name": "Higher Education Loans Board (HELB)",
+          "type": "Government",
+          "key_usp": "Kenyan government student loan — primarily for domestic study but check HELB for overseas eligibility",
+          "apply_url": "https://www.helb.co.ke"
+        },
+        {
+          "name": "Prodigy Finance",
+          "type": "International Fintech — No Collateral",
+          "max_unsecured": "Up to USD 220,000",
+          "interest_rate": "From 8.33% variable",
+          "key_usp": "Open to Kenyan students internationally",
+          "apply_url": "https://prodigyfinance.com/"
+        }
+      ]
+    },
+
+    "United Kingdom": {
+      "intro": "UK home students (citizens, settled status, ILR) studying in the UK access government-backed student finance.",
+      "lenders": [
+        {
+          "name": "UK Student Finance (Student Loans Company — SLC)",
+          "type": "Government",
+          "key_usp": "Tuition Fee Loan up to £9,535/year + income-assessed Maintenance Loan; repaid only when earning above £25,000/year at 9% of income above threshold; debt written off after 40 years",
+          "apply_url": "https://www.gov.uk/student-finance"
+        }
+      ]
+    },
+
+    "Germany": {
+      "intro": "German citizens and long-term EU residents in Germany can access BAföG government support.",
+      "lenders": [
+        {
+          "name": "BAföG (Bundesausbildungsförderungsgesetz)",
+          "type": "Government",
+          "key_usp": "Up to €934/month; 50% is a grant (never repaid), 50% interest-free loan; repaid only when earning above threshold; income and assets assessed",
+          "apply_url": "https://www.bafög.de"
+        }
+      ]
+    },
+
+    "United States": {
+      "intro": "US citizens and eligible non-citizens studying in the US can access federal student aid via FAFSA.",
+      "lenders": [
+        {
+          "name": "Federal Direct Loans (via FAFSA)",
+          "type": "US Government",
+          "key_usp": "Subsidized Loans (need-based, government pays interest while in school) and Unsubsidized Loans; low fixed interest rates; income-driven repayment plans available; Public Service Loan Forgiveness for government/nonprofit work",
+          "apply_url": "https://studentaid.gov"
+        },
+        {
+          "name": "Pell Grant",
+          "type": "US Government Grant (not a loan)",
+          "key_usp": "Up to $7,395/year (2024-25) for low-income undergraduates; does not need to be repaid",
+          "apply_url": "https://studentaid.gov"
+        }
+      ]
+    },
+
+    "UAE": {
+      "intro": "UAE nationals studying abroad may access government scholarship funding; expatriates can use international options.",
+      "lenders": [
+        {
+          "name": "Ministry of Education UAE Scholarship (Mawhibati Programme)",
+          "type": "Government (UAE nationals only)",
+          "key_usp": "For UAE nationals studying at approved universities abroad; covers tuition and living expenses",
+          "apply_url": "https://www.mohesr.gov.ae"
+        },
+        {
+          "name": "Prodigy Finance",
+          "type": "International Fintech — No Collateral",
+          "max_unsecured": "Up to USD 220,000",
+          "interest_rate": "From 8.33% variable",
+          "key_usp": "Open to UAE expatriate students internationally; no UAE asset required",
+          "apply_url": "https://prodigyfinance.com/"
+        }
+      ]
+    },
+
+    "Bangladesh": {
+      "intro": "Bangladeshi students studying abroad can access government scholarships and international loan options.",
+      "lenders": [
+        {
+          "name": "ICB (Investment Corporation of Bangladesh) Education Loan",
+          "type": "Government-linked",
+          "key_usp": "For Bangladeshi students — check current ICB education loan schemes",
+          "apply_url": "https://www.icb.gov.bd"
+        },
+        {
+          "name": "Prodigy Finance",
+          "type": "International Fintech — No Collateral",
+          "max_unsecured": "Up to USD 220,000",
+          "interest_rate": "From 8.33% variable",
+          "key_usp": "Open to Bangladeshi students; no Bangladeshi asset required",
+          "apply_url": "https://prodigyfinance.com/"
+        }
+      ]
+    }
+
+  }
+}
