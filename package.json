@@ -1,0 +1,37 @@
+{
+  "name": "university-db-crawler",
+  "version": "1.0.0",
+  "description": "Autonomous university database crawler for India",
+  "main": "scripts/runWorker.js",
+  "type": "module",
+  "scripts": {
+    "seed": "node scripts/runWorker.js seed",
+    "crawl": "node scripts/runWorker.js website",
+    "pdf": "node scripts/runWorker.js pdf",
+    "aggregate": "node scripts/runWorker.js aggregator",
+    "nirf": "node scripts/runWorker.js nirf",
+    "start": "node scripts/runWorker.js website",
+    "test": "node scripts/runWorker.js website --test",
+    "enrich": "node scripts/runWorker.js enricher"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
+    "@supabase/supabase-js": "^2.105.4",
+    "axios": "^1.16.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "node-cron": "^4.2.1",
+    "p-limit": "^7.3.0",
+    "p-queue": "^9.2.0",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

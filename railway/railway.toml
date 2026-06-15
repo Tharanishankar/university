@@ -1,0 +1,10 @@
+[build]
+builder = "NIXPACKS"
+
+[[services]]
+name = "seed-builder"
+startCommand = "npm run seed"
+
+[[services]]
+name = "enricher"
+startCommand = "npm run enrich"

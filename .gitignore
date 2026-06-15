@@ -1,0 +1,6 @@
+.env
+node_modules/
+*.log
+crawler-data/
+outputs/
+.DS_Store
